@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (item.classList.contains('Orders')) {
                 window.location.href = 'Orders.html';
             } else if (item.classList.contains('Dash')) {
-                window.location.href = 'Dashboard.html';
+                window.location.href = 'index.html';
             }
         });
     });
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('Dash').addEventListener('click', () => {
-                        window.location.href = 'Dash.html';
+                        window.location.href = 'index.html';
                 });
             });
     // Show the order details popup
